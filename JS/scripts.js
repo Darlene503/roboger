@@ -16,5 +16,18 @@ function combinedFunction(value) {
   return result;
 }
 
+document.getElementById("calculate-button").addEventListener("click", calculate);
+
+function calculate() {
+  let value = parseInt(document.getElementById("input-value").value);
+  let result = combinedFunction(value);
+  let outputList = document.getElementById("output-list");
+  outputList.innerHTML = "";
+  for (let i = 0; i < result.length; i++) {
+    let listItem = document.createElement("li");
+    listItem.textContent = result[i];
+    outputList.appendChild(listItem);
+  }
+}
 
 
