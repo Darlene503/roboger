@@ -27,3 +27,17 @@ Code: function oneReturnBeep(number) {
 oneReturnBeep(3);
 Expected Output: "Won't you be my neighbor?"
 
+Describe: creatArray()
+
+Test: "It should return every number from 0 to the numbered entered"
+Code: function createArray(value) {
+  let numberArray = [];
+  for (let i = 0; i <= value; i++) {
+    numberArray.push(i);
+  }
+  return numberArray;
+}
+creatArray(5);
+Expected Output: (6) [0, 1, 2, 3, 4, 5]
+
+

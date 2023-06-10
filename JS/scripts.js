@@ -7,3 +7,11 @@ function oneReturnBeep(number) {
     return "Won't you be my neighbor?"
   }
 }
+function createArray(value) {
+  let numberArray = [];
+  for (let i = 0; i <= value; i++) {
+    numberArray.push(i);
+  }
+  return numberArray;
+}
+
