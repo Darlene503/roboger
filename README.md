@@ -1,7 +1,8 @@
-Describe: wordCounter()
+Describe: oneReturnBeep()
 
-Test: "It should return 1 if a passage has just one word."
-Code:
-const text = "hello";
-wordCounter(text);
-Expected Output: 1
+Test: "It should return the word Beep when 1 is entered."
+Code: function oneReturnBeep(number) {
+  if (number === 1) {
+    return "beep";
+oneReturnBeep(1);
+Expected Output: "Beep"
