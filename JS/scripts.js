@@ -1,17 +1,17 @@
-function oneReturnBeep(number) {
-  if (number === 1) {
-    return "beep";
-  } else if (number === 2) {
-    return "boop"; 
-  }  else if (number === 3) {
-    return "Won't you be my neighbor?"
-  }
-}
-function createArray(value) {
-  let numberArray = [];
+function combinedFunction(value) {
+  let result = [];
   for (let i = 0; i <= value; i++) {
-    numberArray.push(i);
+    let number;
+    if (i === 1) {
+      number = "beep";
+    } else if (i === 2) {
+      number = "boop"; 
+    }  else if (i === 3) {
+      number = "Won't you be my neighbor?";
+    } else {
+      number = i;
+    }
+    result.push(number);
   }
-  return numberArray;
+  return result;
 }
-
