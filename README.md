@@ -99,3 +99,24 @@ Code: function combinedFunction(value) {
 }
 combinedFunction(13)
 expected outcome: [0, 1, 'boop?', "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 'boop?', "won't you be my neighbor?"]
+
+Test: "It should return "Beep" for every number containing 1. 
+Code: function combinedFunction(value) {
+  let result = [];
+  for (let i = 0; i <= value; i++) {
+    let number;
+    if (i.toString().includes("3")) {
+      number = "won't you be my neighbor?";
+    } else if (i.toString().includes("2")) {
+      number = "boop?";
+      } else if (i.toString().includes("1")) {
+      number = "Beep";
+    } else {
+      number = i;
+    }
+    result.push(number);
+  }
+  return result;
+}
+combinedFunction(11)
+expected outcome: [0, 'Beep', 'boop', "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep', 'Beep']

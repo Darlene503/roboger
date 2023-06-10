@@ -5,7 +5,9 @@ function combinedFunction(value) {
     if (i.toString().includes("3")) {
       number = "won't you be my neighbor?";
     } else if (i.toString().includes("2")) {
-      number = "boop?";
+      number = "boop";
+    } else if (i.toString().includes("1")) {
+      number = "Beep";
     } else {
       number = i;
     }
