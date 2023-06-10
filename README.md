@@ -80,3 +80,22 @@ Code: function combinedFunction(value) {
 }
 combinedFunction(13)
 expected outcome: [0, 1, 2, "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "won't you be my neighbor?"]
+
+Test: "It should return "Boop" for every number containing 2. 
+Code: function combinedFunction(value) {
+  let result = [];
+  for (let i = 0; i <= value; i++) {
+    let number;
+    if (i.toString().includes("3")) {
+      number = "won't you be my neighbor?";
+    } else if (i.toString().includes("2")) {
+      number = "boop?";
+    } else {
+      number = i;
+    }
+    result.push(number);
+  }
+  return result;
+}
+combinedFunction(13)
+expected outcome: [0, 1, 'boop?', "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 'boop?', "won't you be my neighbor?"]
