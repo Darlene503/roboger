@@ -2,7 +2,7 @@ README
 
 by Darlene Duyn 
 
-Here's a website that is designed to return specific predefined words and phrases in place of numerical values."
+Here's a website that is designed to return specific predefined words and phrases in place of numerical values. For some fun, please presa play on the audio function! 
 
 -Technologies Used-
 
