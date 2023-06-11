@@ -1,3 +1,25 @@
+README
+
+by Darlene Duyn 
+
+Here's a website that is designed to return specific predefined words and phrases in place of numerical values."
+
+-Technologies Used-
+
+HTML
+CSS
+VS code
+Javascript 
+
+[gh-pages](https://darlene503.github.io/roboger/)
+
+-Description-
+
+This application utilizes javascript and html to create a emersive number generator that will replace 1 with "boop", 2 with "beep", and 3 with "won't you be my neighbor?". When you enter a number into the text box and click "calculate" it will return any numercial value with a string that replaces any number with 3 as "won't you be my neighbor?" 
+
+
+
+-TESTS-
 Describe: oneReturnBeep()
 
 Test: "It should return the word Beep when 1 is entered."
@@ -120,3 +142,22 @@ Code: function combinedFunction(value) {
 }
 combinedFunction(11)
 expected outcome: [0, 'Beep', 'boop', "won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep', 'Beep']
+
+
+-Setup/Installation Requirements-
+
+-Clone the repository or download the code files-
+-Enter url into the browser of your choice-
+-Once webpage has loaded enter a numeric value into blank bloxes-
+-Click "Your new adventure awaits!"-
+-See results-
+
+-Known Bugs-
+Having issue getting the answers to pop up after hitting submit button. 
+
+-License-
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+Copyright (c) 6/2023 Darlene Duyn
+
+
