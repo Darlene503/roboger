@@ -1,3 +1,15 @@
 body {
   background-color: rgb(247, 85, 4);
 }
+
+
+h1 {
+  color: aqua;
+  font-style: italic;
+  font-size: xx-large;
+  }
+
+image {
+  width: 10%; 
+  height: auto;
+}
