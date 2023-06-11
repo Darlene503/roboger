@@ -149,15 +149,13 @@ expected outcome: [0, 'Beep', 'boop', "won't you be my neighbor?", 4, 5, 6, 7, 8
 -Clone the repository or download the code files-
 -Enter url into the browser of your choice-
 -Once webpage has loaded enter a numeric value into blank bloxes-
--Click "Your new adventure awaits!"-
+-Click "Calculate"-
 -See results-
 
 -Known Bugs-
-Having issue getting the answers to pop up after hitting submit button. 
+No known bugs at this time
 
 -License-
 
 [MIT License](https://choosealicense.com/licenses/mit/)
 Copyright (c) 6/2023 Darlene Duyn
-
-
