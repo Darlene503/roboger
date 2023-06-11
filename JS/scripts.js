@@ -27,7 +27,7 @@ function calculate() {
     let listItem = document.createElement("li");
     listItem.textContent = result[i];
     outputList.appendChild(listItem);
+    
   }
 }
-
 
